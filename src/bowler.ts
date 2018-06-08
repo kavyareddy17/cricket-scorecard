@@ -1,4 +1,4 @@
-class bowler {
+export class bowler {
     name: string;
     runsgiven: number;
    wicketcount:number;

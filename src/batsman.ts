@@ -1,4 +1,4 @@
-class batsman {
+export class batsman {
     name: string;
     runsScored: number;
     ballsfaced: number;

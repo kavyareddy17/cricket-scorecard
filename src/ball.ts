@@ -1,4 +1,4 @@
-class Ball{
+export class Ball{
     runsScored:number;
     isOut:boolean;
     isExtra:boolean;
@@ -14,5 +14,18 @@ class Ball{
     };
     batsmanName: string;
     bowlerName: string;
-    
+    constructor()
+    {
+        this.runsScored=0;
+        this.isOut=false;
+        this.isExtra=false;
+        this.extraType=null;
+        this.extraInfo.runsOffered=0;
+        this.dismissalType=null;
+        this.dismissalInfo.fielderName=null;
+        this.dismissalInfo.hasBatsmanCrossed=false;
+        this.dismissalInfo.batsmanOut=null;
+        this.batsmanName=null;
+        this.bowlerName=null;
+    }
 }
